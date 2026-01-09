@@ -1,0 +1,7 @@
+/workspaces/fase3_adjt/history-service/src/main/java/com/hospital/history/config/RabbitMQConfig.java
+/workspaces/fase3_adjt/history-service/src/main/java/com/hospital/history/listener/AppointmentHistoryListener.java
+/workspaces/fase3_adjt/history-service/src/main/java/com/hospital/history/controller/AppointmentHistoryController.java
+/workspaces/fase3_adjt/history-service/src/main/java/com/hospital/history/event/AppointmentEvent.java
+/workspaces/fase3_adjt/history-service/src/main/java/com/hospital/history/entity/AppointmentHistory.java
+/workspaces/fase3_adjt/history-service/src/main/java/com/hospital/history/HistoryServiceApplication.java
+/workspaces/fase3_adjt/history-service/src/main/java/com/hospital/history/repository/AppointmentHistoryRepository.java

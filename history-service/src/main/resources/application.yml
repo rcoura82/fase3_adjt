@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: history-service
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hospital_history_db
+    username: hospital_user
+    password: hospital_pass
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+  
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+    path: /graphql
+
+server:
+  port: 8082
+
+# RabbitMQ Configuration
+rabbitmq:
+  queue:
+    created: appointment.created.queue
+    updated: appointment.updated.queue

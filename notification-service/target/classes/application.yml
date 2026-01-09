@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: notification-service
+  
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${MAIL_USERNAME:your-email@gmail.com}
+    password: ${MAIL_PASSWORD:your-password}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8081
+
+# RabbitMQ Configuration
+rabbitmq:
+  queue:
+    created: appointment.created.queue
+    updated: appointment.updated.queue
+
+# Notification Configuration
+notification:
+  enabled: true
+  email:
+    from: hospital@example.com

@@ -1,0 +1,5 @@
+/workspaces/fase3_adjt/notification-service/src/main/java/com/hospital/notification/listener/AppointmentEventListener.java
+/workspaces/fase3_adjt/notification-service/src/main/java/com/hospital/notification/service/NotificationService.java
+/workspaces/fase3_adjt/notification-service/src/main/java/com/hospital/notification/NotificationServiceApplication.java
+/workspaces/fase3_adjt/notification-service/src/main/java/com/hospital/notification/config/RabbitMQConfig.java
+/workspaces/fase3_adjt/notification-service/src/main/java/com/hospital/notification/event/AppointmentEvent.java

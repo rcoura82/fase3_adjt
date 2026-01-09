@@ -1,0 +1,35 @@
+type Query {
+    """
+    Get all appointments for a specific patient
+    """
+    patientAppointments(patientId: ID!): [Appointment!]!
+    
+    """
+    Get future appointments for a specific patient
+    """
+    futureAppointments(patientId: ID!): [Appointment!]!
+    
+    """
+    Get a specific appointment by ID
+    """
+    appointment(id: ID!): Appointment
+    
+    """
+    Get all appointments (for doctors/nurses)
+    """
+    allAppointments: [Appointment!]!
+}
+
+type Appointment {
+    id: ID!
+    patientId: ID!
+    patientName: String!
+    patientEmail: String!
+    doctorId: ID!
+    doctorName: String!
+    appointmentDate: String!
+    notes: String
+    status: String!
+    createdAt: String!
+    updatedAt: String!
+}

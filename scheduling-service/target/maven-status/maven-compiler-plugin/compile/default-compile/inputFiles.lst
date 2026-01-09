@@ -1,0 +1,15 @@
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/dto/UpdateAppointmentRequest.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/controller/AppointmentController.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/exception/GlobalExceptionHandler.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/dto/AppointmentDTO.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/dto/CreateAppointmentRequest.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/entity/Appointment.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/exception/AppointmentNotFoundException.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/config/SecurityConfig.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/service/AppointmentService.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/SchedulingServiceApplication.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/repository/AppointmentRepository.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/entity/AppointmentStatus.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/config/RabbitMQConfig.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/security/AppointmentSecurityService.java
+/workspaces/fase3_adjt/scheduling-service/src/main/java/com/hospital/scheduling/event/AppointmentEvent.java

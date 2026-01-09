@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: scheduling-service
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hospital_db
+    username: hospital_user
+    password: hospital_pass
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+  
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8080
+
+# RabbitMQ Configuration
+rabbitmq:
+  exchange:
+    name: appointment.events
+  queue:
+    created: appointment.created.queue
+    updated: appointment.updated.queue
+  routing-key:
+    created: appointment.created
+    updated: appointment.updated
