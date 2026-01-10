@@ -1,4 +1,4 @@
-# Instructions for fase3_adjt
+# Instructions for fase3_9adjt
 
 ## Project Overview
 **Sistema de Gerenciamento de Consultas Médicas** - Backend Java escalável e modular para ambiente hospitalar com suporte a múltiplos perfis de usuários (Médicos, Enfermeiros, Pacientes), agendamento de consultas, histórico médico via GraphQL e notificações automáticas.
